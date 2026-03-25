@@ -3,9 +3,9 @@
     height: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: rgba(221, 219, 224, 0.2);
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 .form-group {
     display: flex;
@@ -18,7 +18,7 @@
     text-align: center;
     margin-right: 20px;
     font-weight: bold;
-    color: #333;
+    color: hsl(261, 26%, 87%);
     font-size: 14px;
 }
 
@@ -54,4 +54,48 @@ button{
 #employeeForm h2{
     margin-top: 50px;
     margin-left: 100px;
+}
+nav
+{
+    background-color: transparent;
+    padding: 10px;
+}
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav a
+{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover
+{
+    text-decoration: underline;
+}
+.home{
+    border: #666 solid 1px;
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    border-radius: 3%;
+}.home h1{
+    color: rgb(179, 203, 213);
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.home p{
+    color: rgb(144, 167, 192);
+    font-size: 40px;
 }

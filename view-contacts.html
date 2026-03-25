@@ -4,8 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>View Contacts</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
-<body>
-    
+<body background="images/bg.png">
+    <section>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="new-contact.html">Add Employee</a></li>
+                <li><a href="view-contacts.html">View Employees</a></li>
+            </ul>
+        </nav>
+        
+        <h2>All Employees</h2>
+        <table id="employeeTable">
+            <thead>
+                <tr >
+                    <th>No</th>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Tools</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Employee rows will be populated by JavaScript -->
+            </tbody>
+        </table>
+    </section>
 </body>
 </html>
