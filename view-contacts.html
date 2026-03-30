@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>View Contacts</title>
     <link href="styles.css" rel="stylesheet">
+    <script src="main.js" defer></script>
 </head>
 <body background="images/bg.png">
     <section>
@@ -16,8 +17,9 @@
             </ul>
         </nav>
         
-        <h2>All Employees</h2>
-        <table id="employeeTable">
+        <nav id="view">
+        <h2 style="color: aliceblue;">All Employees</h2>
+        <table id="employeeTable" border="1" cellpadding="10" cellspacing="0">
             <thead>
                 <tr >
                     <th>No</th>
@@ -31,6 +33,7 @@
                 <!-- Employee rows will be populated by JavaScript -->
             </tbody>
         </table>
+        </nav>
     </section>
 </body>
 </html>

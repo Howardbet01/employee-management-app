@@ -99,3 +99,23 @@ nav a:hover
     color: rgb(144, 167, 192);
     font-size: 40px;
 }
+#employeeTable {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(221, 219, 224, 0.2);
+    border: 1px solid #061111;
+    border-radius: 20px;
+}
+#employeeTable th, #employeeTable td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+#employeeTable th {
+    background-color: #333;
+    color: white;
+}
+#employeeTable tbody {
+    background-color: rgba(221, 219, 224, 0.2);
+}
